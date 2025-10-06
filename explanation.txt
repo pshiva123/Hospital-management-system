@@ -1,0 +1,23 @@
+backend
+---------
+---------
+package-name                 use
+------------                ----------
+bycrypt             |        password hashing
+cloudinary          |        to upload images to cloud
+cookie-parser       |        used to read(parse) cookies sent by the client in the 
+                    |        request headers and make them easily accessible in your server code
+cors                |        to connect frontend and backend
+dotenv              |        to keep our variables secret
+express             |        framework that makes nodejs work easy.
+mongoose            |        to do operations with mongodb
+express-fileupload  |        used for image upload in this project ,It allows your server to easily 
+                    |        receive and process files (like images, PDFs, etc.) sent from the client 
+                    |        via an HTML form or API request.
+jsonwebtoken        |        (often called JWT) is a popular Node.js library used to create, sign, verify, 
+                    |        and decode JSON Web Tokens — which are commonly used for secure authentication 
+                    |        and authorization in web applications and APIs.
+validator           |        to handle email validation
+
+
+--> create app.js and setup express app and export
